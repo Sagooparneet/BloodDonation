@@ -8,7 +8,7 @@ package-lock.json
 .env.production.local
 
 # Build outputs
-build/
+# build/ - commented out to allow pushing frontend build to Azure
 dist/
 
 # Logs

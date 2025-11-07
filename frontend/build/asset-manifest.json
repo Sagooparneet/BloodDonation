@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b95aca3.css",
+    "main.js": "/static/js/main.5291be61.js",
+    "static/media/bloodbagimg.jpg": "/static/media/bloodbagimg.e5806c8b7f805df767f4.jpg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.6b95aca3.css",
+    "static/js/main.5291be61.js"
+  ]
+}
