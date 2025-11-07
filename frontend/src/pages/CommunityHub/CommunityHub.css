@@ -1,0 +1,136 @@
+.community-hub {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #b71c1c;
+  margin-bottom: 2rem;
+}
+
+.post-toggle {
+  display: block;
+  margin: 0 auto 2rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to right, #e53935, #d81b60);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.post-toggle:hover {
+  background: linear-gradient(to right, #c62828, #ad1457);
+}
+
+.story-form {
+  background: #ffebee;
+  border-radius: 50px / 25px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.story-form textarea {
+  border: none;
+  background: #fff5f5;
+  border-radius: 24px;
+  padding: 1.2rem;
+  font-size: 1rem;
+  outline: none;
+  resize: vertical;
+  transition: box-shadow 0.3s ease;
+}
+
+.story-form textarea:focus {
+  box-shadow: 0 0 0 2px #e57373aa;
+}
+
+.story-form button {
+  align-self: flex-end;
+  padding: 0.75rem 1.5rem;
+  background: #e53935;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.story-form button:hover {
+  background: #c62828;
+}
+
+.stories-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.story-box {
+  padding: 2rem;
+  border-radius: 50px / 25px;
+  background: #ffebee;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.story-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.story-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.initials {
+  background: #ffcdd2;
+  color: #b71c1c;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-header strong {
+  font-size: 1.1rem;
+  margin-right: auto;
+  color: #444;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.story-content {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

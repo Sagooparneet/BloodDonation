@@ -1,0 +1,139 @@
+.login-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  background-color: #f7eaea;
+}
+
+.login-btn {
+  padding: 10px;
+  background-color: #ef4444 !important; 
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #a51818 !important;
+}
+
+.forgot-password {
+  margin-top: 15px;
+  text-align: center;
+  color: #ef4444;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+  color: #b91c1c;
+  text-decoration: underline;
+}
+
+.signup-redirect {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.signup-redirect a {
+  color: #ef4444;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.signup-redirect a:hover {
+  color: #b91c1c;
+  text-decoration: underline;
+}
+
+/* Forgot Password Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff8f8;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.modal-content h3 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  background-color: #f7eaea;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-content button:first-of-type {
+  background-color: #ef4444;
+  color: white;
+}
+
+.modal-content button:first-of-type:hover {
+  background-color: #b91c1c;
+}
+
+.modal-content button:last-of-type {
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+.modal-content button:last-of-type:hover {
+  background-color: #ddd;
+}

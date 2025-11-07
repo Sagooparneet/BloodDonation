@@ -1,0 +1,42 @@
+.stat-card {
+  padding: 1.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  transition: transform 0.2s ease;
+  min-width: 180px;
+  color: white;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.stat-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.stat-card p {
+  font-size: 2.4rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.stat-card.red {
+  background-color: #e53935;
+}
+
+.stat-card.black {
+  background-color: #212121;
+}
+
+.stat-card.white {
+  background-color: #f5f5f5;
+  color: #b71c1c;
+}
