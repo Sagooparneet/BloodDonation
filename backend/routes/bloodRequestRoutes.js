@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../../src/lib/db');
+const db = require('../lib/db');
 const auth = require('../middleware/verifyToken');
 
 // Create blood request 
